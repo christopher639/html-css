@@ -1,28 +1,59 @@
-button{
+body{
+    font-family: roboto;
+}
+.search-bar{
+    display:block;
+    height: 30px;
     background-color: white;
-    padding: 10px;
-    cursor: pointer;
-    color: black;
-    font-size: 18px;
-    border-radius: 4px;
-    transition-duration: 1s;
+
+}
+.thumbnail{
+    width: 300px;
    
 }
-button:hover{
-    color: white;
-    background-color: red;
-    opacity:  1;
-    box-shadow:2px 2px 5px rgba(0,0,0,1);
-}
-
-button:active{
-    background-color: green;
-    color: white;
-    
-}
-p{
-    font-family: Arial, Helvetica, sans-serif;
+.vedio-title{
     color: black;
     font-weight: bold;
-    line-height: 26px;
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 20px;
+    margin-bottom: 12px;
+
+}
+.vedio-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    
+
+}
+.channel-picture{
+
+}
+.vedio-info{
+    width: 200px;
+    display: inline-block;
+}
+.profile-picture{
+    width: 40px;
+    border-radius: 100%;
+}
+.thumbnail-row{
+    margin-bottom: 10px;
+}
+.vedio-author, .vedio-stat{
+    font-size: 12px;
+    color: rgb(96,96,96);
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.vedio-author{
+    margin-bottom: 4px;
+}
+.vedio-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
