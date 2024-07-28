@@ -8,7 +8,8 @@ body{
 
 }
 .thumbnail{
-    width: 300px;
+    display: block;
+    width: 100%;
    
 }
 .vedio-title{
@@ -20,19 +21,12 @@ body{
     margin-bottom: 12px;
 
 }
-.vedio-preview{
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
-    
 
-}
 .channel-picture{
 
 }
 .vedio-info{
-    width: 200px;
+    
     display: inline-block;
 }
 .profile-picture{
@@ -56,4 +50,10 @@ p{
 .vedio-info-grid{
     display: grid;
     grid-template-columns: 50px 1fr;
+}
+.vedio-preview-gred{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
 }

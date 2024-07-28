@@ -3,50 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>learning grid</title>
+    <title>Document</title>
 </head>
 <body>
-    <div style="
-        display: grid;
-        grid-template-columns: 100px 100px;">
-        <div style="background-color: aqua;">div 1</div>
-        <div style="background-color: lightblue;"> div 2
-            <p>hello greed</p>
-        </div>
+    <style>
+        .displa-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 5px;
+            row-gap: 5px;
+            
+        }
+        .box1{
+            background-color: pink;
+            height: 200px;
+        }
+        .box2{
+            background-color: black;
+        }
+        .box3{
+            background-color:yellow;
+        
+        }
+        .box4{
+            background-color: orange;
+        }
+        .box5{
+            background-color: aqua;
+            height: 200px;
+        }
+        .box6{
+            background-color: magenta;
+        }
+
+    </style>
+    <div class="displa-grid">
+        <div class="box1" >my name is bundi</div>
+        <div class="box2" >divssss</div>
+        <div class="box3" >divssss</div>
+        <div class="box4" >divssss</div>
+        <div class="box5" >divssss</div>
+        <div class="box6" >divssss</div>
+      
     </div>
-
-    <div style="
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 100px 100px 200px;">
-    <div style="background-color: aqua;">div 1</div>
-    <div style="background-color: lightblue;"> div 2
-        <p>hello greed</p>
-    </div>
-    <div style="background-color: aqua;">div 1</div>
-     <div style="background-color: lightblue;"> div 2
-        <p>hello greed</p>
-    </div>
-</div>
-
-
-<div style="
-margin-top: 30px;
-display: grid;
-grid-template-columns: 1fr 1fr  1fr ;">
-<div style="background-color: aqua;">div 1</div>
-<div style="background-color: lightblue;"> div 2
-    <p>hello greed</p>
-</div>
-<div style="background-color: aqua;">div 1</div>
- <div style="background-color: lightblue;"> div 2
-    <p>hello greed</p>
-
-</div>
-<div style="background-color: lightblue;"> div 2
-    <p>hello greed</p>
-</div>
-</div>
-    
 </body>
 </html>
